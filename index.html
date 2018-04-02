@@ -16,28 +16,56 @@
 	      html{
 	          height:100%;
 	      }
-          @keyframes jing {
+           @keyframes jing {
               0% {opacity:0;}
+              25% {opacity:100;}
+              50% {opacity:100;}
+              75% {opacity:100;}
               100% {opacity:100;}
           }
           @keyframes chuang {
               0% {opacity:0;}
-              to {opacity:100;}
+              25% {opacity:100;}
+              50% {opacity:0;}
+              75% {opacity:0;}
+              100% {opacity:0;}
           }
           @keyframes yi {
               0% {opacity:0;}
-              to {opacity:100;}
+              25% {opacity:0;}
+              50% {opacity:100;}
+              75% {opacity:0;}
+              100% {opacity:0;}
           }
           @keyframes  ju{
               0% {opacity:0;}
-              to {opacity:100;}
+              25% {opacity:0;}
+              50% {opacity:0;}
+              75% {opacity:100;}
+              100% {opacity:0;}
           }
           @keyframes di {
               0% {opacity:0;}
-              to {opacity:100;}
+              25% {opacity:0;}
+              50% {opacity:0;}
+              75% {opacity:0;}
+              100% {opacity:100;}
           }
-          h1{
-              animation: jing 10s infinite;
+          /*#jing{*/
+              /*animation: jing 2s infinite;*/
+          /*}*/
+          #chaung{
+              animation: chuang 10s infinite;
+          }#yi{
+               animation: yi 10s infinite;
+           }#ju{
+                animation: ju 10s infinite;
+            }#di{
+                 animation: di 10s infinite;
+             }
+          p{
+              position: absolute;
+              width: 100%
           }
 	</style>
   </head>
